@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage reports, and other temporary files
+*.test
+*.out
+*.cover
+
+# Output of the 'go build' and 'go test' commands
+/build/
+/bin/
+/pkg/
+
+# Vendor directory (when using `dep` or Go modules in vendor mode)
+vendor/
+
+# Go workspace file
+*.code-workspace
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+*.swp
+*.swo
+.DS_Store
+
+# Dependency directories
+node_modules/
